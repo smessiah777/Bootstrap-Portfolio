@@ -52,6 +52,7 @@ a {
 
 .nav-style {
   margin-right: 50px;
+  float: right;
 }
 
 .nav-a {
@@ -229,5 +230,57 @@ a:active {
   }
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-style {
+    margin-right: 20px;
+    float: left;
+  }
+  .nav-a {
+    padding-left: 2px;
+    font-size: 15px;
+  }
+
+  .nav-no-border {
+    font-size: 15px;
+  }
+
+  .content-card {
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+  }
+
+  .about-img {
+    width: 274px;
+  }
+
+  .about-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #logo {
+    width: 100%;
+    margin: 0 30px 0 0;
+  }
+
+  .nav-style {
+    margin-top: 20px;
+    margin-right: 60px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .nav-a {
+    padding-left: 2px;
+    font-size: 10px;
+  }
+
+  .nav-no-border {
+    font-size: 10px;
   }
 }
