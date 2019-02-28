@@ -10,24 +10,30 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Bootstrap Porfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Bungee+Inline"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bootstrap Portfolio</title>
   </head>
   <body>
     <!-- header start -->
-    <div class="card">
+    <div class="card header">
       <div class="row">
-        <div class="col">
-          <a href="./index.html"><h1>B.A.</h1></a>
+        <div class="col overflow-hidden">
+          <a href="./index.html"><h1 id="logo">B.A.</h1></a>
         </div>
-        <div class="col col-sm-pull-4">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
+        <div class="col">
+          <ul class=" nav justify-content-end nav-style">
+            <li class="nav-item  nav-no-border ">
               <a class="nav-link" href="./index.html">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-a">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-a">
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
@@ -36,69 +42,54 @@
     </div>
     <!-- header end -->
 
-
-
     <!-- main-content start -->
-
     <div class="container">
-            <div class="card">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col"><h1>About</h1></div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                          <img
-                            src="./images/mr-t-vintage4.jpeg"
-                            class="rounded float-left"
-                            alt="..."
-                          />
-                        </div>
-                        <div class="col">
-                          <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-                            quo dignissimos ipsa a sequi vero voluptatibus odit rem
-                            perferendis asperiores amet laboriosam, architecto magni nostrum
-                            quidem voluptatum placeat ipsum est.
-                          </p>
-                          <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-                            quo dignissimos ipsa a sequi vero voluptatibus odit rem
-                            perferendis asperiores amet laboriosam, architecto magni nostrum
-                            quidem voluptatum placeat ipsum est.
-                          </p>
-                          <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-                            quo dignissimos ipsa a sequi vero voluptatibus odit rem
-                            perferendis asperiores amet laboriosam, architecto magni nostrum
-                            quidem voluptatum placeat ipsum est.
-                          </p>
-                          <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-                            quo dignissimos ipsa a sequi vero voluptatibus odit rem
-                            perferendis asperiores amet laboriosam, architecto magni nostrum
-                            quidem voluptatum placeat ipsum est.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-12">
-                          <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Accusamus, tempora fugiat! Beatae, atque? Blanditiis recusandae
-                            eius aspernatur maiores optio repellat tempora temporibus
-                            necessitatibus fugiat, ducimus unde id animi mollitia rem!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+      <div class="card content-card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm"><h1 class="content-h1">About</h1></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img
+                src="./images/mr-t-vintage4.jpeg"
+                class="rounded float-left about-img"
+                alt="..."
+              />
+            </div>
+            <div class="col ">
+              <p class="about-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                quo dignissimos ipsa a sequi vero voluptatibus odit rem
+                perferendis asperiores amet laboriosam, architecto magni nostrum
+                quidem voluptatum placeat ipsum est.
+              </p>
+              <p class="about-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                quo dignissimos ipsa a sequi vero voluptatibus odit rem
+                perferendis asperiores amet laboriosam, architecto magni nostrum
+                quidem voluptatum placeat ipsum est.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 about-text">
+              <p class="about-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus, tempora fugiat! Beatae, atque? Blanditiis recusandae
+                eius aspernatur maiores optio repellat tempora temporibus
+                necessitatibus fugiat, ducimus unde id animi mollitia rem!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    
+
     <!-- main-content end -->
 
     <!-- footer start -->
-    <div class="card">
+    <div class="card footer-style ">
       <div class="card-body text-center">
         &copy;copyright Pitty Da Foo INC. 2019
       </div>

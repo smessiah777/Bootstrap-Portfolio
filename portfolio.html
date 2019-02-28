@@ -10,24 +10,30 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Bootstrap Porfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton|Bungee+Inline"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bootstrap Portfolio</title>
   </head>
   <body>
     <!-- header start -->
-    <div class="card">
+    <div class="card header">
       <div class="row">
-        <div class="col">
-          <a href="./index.html"><h1>B.A.</h1></a>
+        <div class="col overflow-hidden">
+          <a href="./index.html"><h1 id="logo">B.A.</h1></a>
         </div>
-        <div class="col col-sm-pull-4">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
+        <div class="col">
+          <ul class=" nav justify-content-end nav-style">
+            <li class="nav-item  nav-no-border ">
               <a class="nav-link" href="./index.html">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-a">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-a">
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
@@ -41,25 +47,53 @@
       <div class="card">
         <div class="card-body">
           <div class="row">
-            <div class="col"><h1>Portfolio</h1></div>
+            <div class="col"><h1 class="content-h1">Portfolio</h1></div>
           </div>
           <div class="row">
             <div class="col">
-              <img src="./images/abstract-blur-dark-243868.jpg" class="rounded float-left" alt="..."></div>
+              <img
+                src="./images/abstract-blur-dark-243868.jpg"
+                class="rounded float-left port-card"
+                alt="..."
+              />
+              <div class="port-text"><h1>Electro</h1></div>
+            </div>
+
             <div class="col">
-              <img src="./images/analog-camera-person-1854600.jpg" class="rounded float-left" alt="..."></div>
+              <img
+                src="./images/analog-camera-person-1854600.jpg"
+                class="rounded float-left port-card"
+                alt="..."
+              />
+              <div class="port-text"><h1>Photography</h1></div>
+            </div>
           </div>
           <div class="row">
             <div class="col">
-                <img src="./images/beach-cliff-clouds-573848.jpg" class="rounded float-left" alt="...">
+              <img
+                src="./images/beach-cliff-clouds-573848.jpg"
+                class="rounded float-left port-card"
+                alt="..."
+              />
+              <div class="port-text"><h1>Travel</h1></div>
             </div>
             <div class="col">
-                <img src="./images/beef-cooking-delicious-769289.jpg" class="rounded float-left" alt="...">
+              <img
+                src="./images/beef-cooking-delicious-769289.jpg"
+                class="rounded float-left port-card"
+                alt="..."
+              />
+              <div class="port-text"><h1>Chef</h1></div>
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <img src="./images/" class="rounded float-left" alt="...">
+              <img
+                src="./images/beautiful-blooming-blossom-1440476.jpg"
+                class="rounded float-left port-card"
+                alt="..."
+              />
+              <div class="port-text"><h1>Japan</h1></div>
             </div>
           </div>
         </div>
@@ -69,7 +103,7 @@
     <!-- main-content end -->
 
     <!-- footer start -->
-    <div class="card">
+    <div class="card  footer-style ">
       <div class="card-body text-center">
         &copy;copyright Pitty Da Foo INC. 2019
       </div>
