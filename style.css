@@ -39,6 +39,8 @@ h1 {
 #logo:hover {
   background-color: #333;
   color: teal;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
 }
 
 a {
@@ -73,7 +75,11 @@ a {
 
 a:hover {
   color: teal;
+  background-color: black;
   text-decoration: none;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  box-shadow: 0 12px 6px -6px #333;
 }
 
 a:active {
@@ -113,6 +119,7 @@ a:active {
 .about-img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+  box-shadow: 0 12px 6px -6px #333;
 }
 
 .about-text {
@@ -136,6 +143,7 @@ a:active {
   color: teal;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+  box-shadow: 0 12px 6px -6px teal;
 }
 
 .port-text {
@@ -167,6 +175,7 @@ a:active {
   color: teal;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+  box-shadow: 0 12px 6px -6px teal;
 }
 
 /* Contact page content styles end */
